@@ -11,7 +11,7 @@ jobs:
   build_and_publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v3
+      - uses: actions/checkout@v3
       - name: Build and push the image
         run: |
           docker login --username nando10xers --password {{ secrets.GHCR_TESTING_PAT }} ghcr.io
