@@ -1,7 +1,7 @@
 # publish-container-image-to-ghcr
 Source: https://www.youtube.com/watch?v=RgZyX-e6W9E
 
-1. Login to GHCR using Github Personal Access Token (PAT)
+1. Login to GHCR using Github Personal Access Token (classic) (PAT)
 ```
 docker login --username <GITHUB_USERNAME> --password <GITHUB_PAT> ghcr.io
 ```
